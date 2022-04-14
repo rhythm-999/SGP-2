@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about c.css">
+    <title>about c</title>
+</head>
+<body>
+    <div class="l1">
+        <h1>About C</h1>
+        <a href="#c1">Program Structure</a>
+        <br><br>
+        <a href="#c2">Basic Sysntax</a>
+        <br><br>
+        <a href="#c3">Data Types</a>
+        <br><br>
+        <a href="#c4">Variables</a>
+        <br><br>
+        <a href="#c5">Constants and Literals</a>
+        <br><br>
+        <a href="c6">Operators</a>
+        <br><br>
+        <a href="c7">Loops</a>
+        <br><br>
+        <a href="">Functions</a>
+        <br><br>
+        <a href="">Arrays</a>
+        <br><br>
+        <a href="">Pointers</a>
+        <br><br>
+        <a href="">Strings</a>
+        <br><br>
+        <a href="">Structures</a>
+        <br><br>
+        <a href="">Unions</a>
+        <br><br>
+        <a href="">Recursion</a>
+        <br><br>
+    </div>
+    <div class="bgvideo">
+        <video autoplay muted loop>
+            <source src="Hacker_code_whiteblack_02_Videvo.mov" type="video/mp4">
+        </video>
+        <!-- <video autoplay muted loop id="myVideo">
+            <source src="Hacker_code_whiteblack_02_Videvo.mov" type="video/mp4">
+        </video> -->
+    </div>
+    <div class="explain">
+        <div class="c" id="c1">
+            <h3>Program Structure</h3>
+            The structure of a C program means the specific structure to start the programming in the C language. Without a proper structure, it becomes difficult to analyze the problem and the solution. It also gives us a reference to write more complex programs.
+            <br><br>
+            The first line of the program #include "<stdio. h>" is a preprocessor command, which tells a C compiler to include stdio. h file before going to actual compilation. The next line int main() is the main function where the program execution begins.
+        </div>
+        <div class="c" id="c2">
+            <h3>Basic Syntax</h3>
+            <ul>
+                <h4>Tokens in C</h4>
+                <ul>
+                    <li>A C program consists of various tokens and a token is either a keyword, an identifier, a constant, a string literal, or a symbol. For example, the following C statement consists of five tokens −</li><br>
+                    <img src="http://www.trytoprogram.com/images/c-first-program.jpg" alt="" height="200px" width="400px">
+                </ul>
+                <h4>Semicolons</h4>
+                <ul>
+                    <li>In a C program, the semicolon is a statement terminator. That is, each individual statement must be ended with a semicolon. It indicates the end of one logical entity.</li>
+                </ul>
+                <h4>Comments</h4>
+                <ul>
+                    <li>Comments are like helping text in your C program and they are ignored by the compiler. They start with /* and terminate with the characters */ as shown below −</li>
+                    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20191113114930/Comments.png" alt="" height="200px" width="200px">
+                </ul>
+            </ul>
+        </div>
+        <div class="c" id="c3">
+            <h3>Data Types</h3>
+            <ul>
+                <li>In C programming, data types are declarations for variables. This determines the type and size of data associated with variables.</li>
+                <li>You can declare multiple variables at once in C programming. For example,</li>
+                <li>
+                    <h4>Diffrent Data Types</h4>
+                    <ul>
+                        <h4>int</h4>
+                        <ul>
+                            <li>Integers are whole numbers that can have both zero, positive and negative values but no decimal values. For example, 0, -5, 10</li>
+                        </ul>
+                        <h4>float and double</h4>
+                        <ul>
+                            <li>float and double are used to hold real numbers.</li>
+                            <li>In C, floating-point numbers can also be represented in exponential. </li>
+                        </ul>
+                        <h4>char</h4>
+                        <ul>
+                            <li>Keyword char is used for declaring character type variables.</li>
+                            <li>The size of the character variable is 1 byte.</li>
+                        </ul>
+                        <h4>void</h4>
+                        <ul>
+                            <li>void is an incomplete type. It means "nothing" or "no type". You can think of void as absent.</li>
+                            <li>For example, if a function is not returning anything, its return type should be void</li>
+                            <li>Note that, you cannot create variables of void type.</li>
+                        </ul>
+                        <h4>short and long</h4>
+                        <ul>
+                            <li>If you need to use a large number, you can use a type specifier long.</li>
+                        </ul>
+                        <h4>Derived Data Types</h4>
+                        <ul>
+                            <li>Data types that are derived from fundamental data types are derived types. For example: arrays, pointers, function types, structures, etc.</li>
+                        </ul>
+                    </ul>
+                </li>
+        </div>
+        <div class="c" id="c4">
+            <h3>Variables</h3>
+            <ul>
+                <li>A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.</li><br>
+                <li>The name of a variable can be composed of letters, digits, and the underscore character. It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based on the basic types explained in the previous chapter, there will be the following basic variable types </li>
+            </ul>
+        </div>
+        <div class="c" id="c5">
+            <h3>Constants and Literals</h3>
+            <ul>
+                <li>Constants refer to fixed values that the program may not alter during its execution. These fixed values are also called literals.</li><br>
+                <li>Constants can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal. There are enumeration constants as well.</li><br>
+                <li>Constants are treated just like regular variables except that their values cannot be modified after their definition.</li><br>
+                <li>
+                    <ul>
+                        <h4>Integer Literals</h4>
+                        <li>An integer literal can be a decimal, octal, or hexadecimal constant. A prefix specifies the base or radix: 0x or 0X for hexadecimal, 0 for octal, and nothing for decimal.</li><br>
+                        <li>An integer literal can also have a suffix that is a combination of U and L, for unsigned and long, respectively. The suffix can be uppercase or lowercase and can be in any order.</li><br>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <h4>Floating-point Literals</h4>
+                        <li>A floating-point literal has an integer part, a decimal point, a fractional part, and an exponent part. You can represent floating point literals either in decimal form or exponential form.</li><br>
+                        <li> While representing decimal form, you must include the decimal point, the exponent, or both; and while representing exponential form, you must include the integer part, the fractional part, or both. The signed exponent is introduced by e or E.</li><br>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="c" id="c6">
+            <h3>Operators</h3>
+            <ul>
+                <li>An operator is a symbol that tells the compiler to perform specific mathematical or logical functions. C language is rich in built-in operators and provides the following types of operators −</li><br>
+                <ul>
+                    <li>Arithmetic Operators</li>
+                    <li>Relational Operators</li>
+                    <li>Logical Operators</li>
+                    <li>Bitwise Operators</li>
+                    <li>Assignment Operators</li>
+                </ul>
+            </ul>
+        </div>
+        <div class="c" id="c7">
+            <h3>Loops</h3>
+            <ul>
+                <li>You may encounter situations, when a block of code needs to be executed several number of times. In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on.</li><br>
+                <li>Programming languages provide various control structures that allow for more complicated execution paths.</li><br>
+                <li>A loop statement allows us to execute a statement or group of statements multiple times. Given below is the general form of a loop statement in most of the programming languages −</li><br>
+                <img src="https://www.tutorialspoint.com/cprogramming/images/loop_architecture.jpg" alt="" height="350px" width="400px" style="padding-left: 150px;">
+                <li>
+                    <ul>
+                        <h4>Types Of Loops</h4>
+                        <li>while Loop</li>
+                        <ul>
+                            <li>Repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body.</li>
+                        </ul>
+                        <li>do...While Loop</li>
+                        <ul>
+                            <li>It is more like a while statement, except that it tests the condition at the end of the loop body</li>
+                        </ul>
+                        <li>for Loop</li>
+                        <ul>
+                            <li>Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.</li>
+                        </ul>
+                        <li>nested loop</li>
+                        <ul>
+                            <li>You can use one or more loops inside any other while, for, or do..while loop.</li>
+                        </ul>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <h4>Loop Control Statements</h4>
+                        <li>Loop control statements change execution from its normal sequence. When execution leaves a scope, all automatic objects that were created in that scope are destroyed.</li>
+                        <li>
+                            <ul>
+                                <h4>Types Of Control Statements</h4>
+                                <ul>
+                                    <li>break statement</li>
+                                    <ul>
+                                        <li>Terminates the loop or switch statement and transfers execution to the statement immediately following the loop or switch.</li><br>
+                                    </ul>
+                                    <li>countinue statement</li>
+                                    <ul>
+                                        <li>Causes the loop to skip the remainder of its body and immediately retest its condition prior to reiterating.</li><br>
+                                    </ul>
+                                    <li>goto statement</li>
+                                    <ul>
+                                        <li>Transfers control to the labeled statement.</li><br>
+                                    </ul>
+                                </ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <h4>The Infinite Loop</h4>
+                        <li>A loop becomes an infinite loop if a condition never becomes false. The for loop is traditionally used for this purpose. Since none of the three expressions that form the 'for' loop are required, you can make an endless loop by leaving the conditional expression empty.</li><br>
+                        <li>When the conditional expression is absent, it is assumed to be true. You may have an initialization and increment expression, but C programmers more commonly use the for(;;) construct to signify an infinite loop.</li><br>
+                        <li><b>NOTE</b> − You can terminate an infinite loop by pressing Ctrl + C keys.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="c" id="c8">
+            <h3>Functions</h3>
+            <ul>
+                <li>A function is a group of statements that together perform a task. Every C program has at least one function, which is main(), and all the most trivial programs can define additional functions.</li><br>
+                <li>You can divide up your code into separate functions. How you divide up your code among different functions is up to you, but logically the division is such that each function performs a specific task.</li><br>
+                <li>A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.</li><br>
+                <li>The C standard library provides numerous built-in functions that your program can call. For example, strcat() to concatenate two strings, memcpy() to copy one memory location to another location, and many more functions.<li>
+                <li>A function can also be referred as a method or a sub-routine or a procedure, etc.</li><br>
+                <li>
+                    <h4>Defining a Function</h4>
+                    <ul>
+                        <li>The general form of a function definition in C programming language is as follows −</li>
+                        <p>
+                            return_type function_name( parameter list ) {<br>
+                                body of the function <br>
+                             } <br> 
+                        </p>
+                        <li>A function definition in C programming consists of a function header and a function body. Here are all the parts of a function −</li><br>
+                        <ul>
+                            <li> <b>Return Type − </b>A function may return a value. The return_type is the data type of the value the function returns. Some functions perform the desired operations without returning a value. In this case, the return_type is the keyword void.</li><br>
+                            <li> <b>Function Name - </b>This is the actual name of the function. The function name and the parameter list together constitute the function signature.</li><br>
+                            <li> <b>Parameters − </b> A parameter is like a placeholder. When a function is invoked, you pass a value to the parameter. This value is referred to as actual parameter or argument. The parameter list refers to the type, order, and number of the parameters of a function. Parameters are optional; that is, a function may contain no parameters.</li><br>
+                            <li> <b>Function Body − </b> The function body contains a collection of statements that define what the function does.</li><br>
+                        </ul>
+                    </ul>
+                    <h4>Example</h4>
+                    <ul>
+                        <li>Given below is the source code for a function called max(). This function takes two parameters num1 and num2 and returns the maximum value between the two −</li>
+                        <p>/* function returning the max between two numbers */ <br>
+                            int max(int num1, int num2) {
+                             <br>
+                               /* local variable declaration */ <br>
+                               int result; <br>
+                               if (num1 > num2) <br>
+                                  result = num1; <br>
+                               else <br>
+                                  result = num2; <br>
+                               return result;  <br>
+                            }</p>
+                    </ul>
+                    <h4>Function Declarations</h4>
+                    <ul>
+                        <li>A function declaration tells the compiler about a function name and how to call the function. The actual body of the function can be defined separately.</li><br>
+                        <li>A function declaration has the following parts −</li>
+                        <p>return_type function_name( parameter list );</p>
+                        <li>For the above defined function max(), the function declaration is as follows −</li>
+                        <p>int max(int num1, int num2);</p>
+                        <li>Parameter names are not important in function declaration only their type is required, so the following is also a valid declaration −</li>
+                        <p>int max(int, int);</p>
+                        <li>Function declaration is required when you define a function in one source file and you call that function in another file. In such case, you should declare the function at the top of the file calling the function.</li>
+                    </ul>
+                    <h4>Calling a Function</h4>
+                    <ul>
+                        <li>While creating a C function, you give a definition of what the function has to do. To use a function, you will have to call that function to perform the defined task.</li><br>
+                        <li>When a program calls a function, the program control is transferred to the called function. A called function performs a defined task and when its return statement is executed or when its function-ending closing brace is reached, it returns the program control back to the main program.</li><br>
+                        <li>To call a function, you simply need to pass the required parameters along with the function name, and if the function returns a value, then you can store the returned value. For example −</li><br>
+                        <p>
+                            #include <stdio.h>
+ 
+                                /* function declaration */ <br>
+                                int max(int num1, int num2); <br>
+                                 
+                                int main () { <br>
+                                
+                                   /* local variable definition */ <br>
+                                   int a = 100; <br>
+                                   int b = 200; <br>
+                                   int ret; <br>
+                                 
+                                   /* calling a function to get max value */ <br>
+                                   ret = max(a, b); <br>
+                                 
+                                   printf( "Max value is : %d\n", ret ); <br>
+                                 
+                                   return 0; <br>
+                                } <br>
+                                 
+                                /* function returning the max between two numbers */ <br>
+                                int max(int num1, int num2) { <br>
+                                
+                                   /* local variable declaration */ <br>
+                                   int result; <br>
+                                 
+                                   if (num1 > num2) <br>
+                                      result = num1;<br>
+                                   else <br>
+                                      result = num2; <br>
+                                 
+                                   return result;  <br>
+                                } <br>
+                        </p>
+                        <li>We have kept max() along with main() and compiled the source code. While running the final executable, it would produce the following result −</li>
+                        <p>Max value is : 200</p>
+                    </ul>
+                    <h4>Function Arguments</h4>
+                    <li>If a function is to use arguments, it must declare variables that accept the values of the arguments. These variables are called the formal parameters of the function.</li><br>
+                    <li>Formal parameters behave like other local variables inside the function and are created upon entry into the function and destroyed upon exit.</li><br>
+                    <li>While calling a function, there are two ways in which arguments can be passed to a function −</li><br>
+                    <li>Call Type & Description</li><br>
+                    <ol>
+                        <li>Call by value</li><br>
+                        <ul>
+                            <li>This method copies the actual value of an argument into the formal parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.</li><br>
+                        </ul>
+                        <li>Call by reference</li><br>
+                        <ul>
+                            <li>This method copies the address of an argument into the formal parameter. Inside the function, the address is used to access the actual argument used in the call. This means that changes made to the parameter affect the argument.</li><br>
+                        </ul>
+                    </ol>
+                    <li>By default, C uses call by value to pass arguments. In general, it means the code within a function cannot alter the arguments used to call the function.</li><br>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="c" id="c9">
+            <h3>Arrays</h3>
+        </div>
+        <div class="c" id="c10">
+            <h3>Pointers</h3>
+        </div>
+        <div class="c" id="c11">
+            <h3>Strings</h3>
+        </div>
+        <div class="c" id="c12">
+            <h3>Structures</h3>
+        </div>
+        <div class="c" id="c13">
+            <h3>Unions</h3>
+        </div>
+        <div class="c" id="c14">
+            <h3>Recursion</h3>
+        </div> -->
+    </div>
+    <br>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/irqbmMNs2Bo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen target="_blank" style="margin-left: 350px; margin-right: 450px;"></iframe>
+    </div>
+</body>
+</html>
